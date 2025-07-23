@@ -50,7 +50,6 @@ img{
 /* banner section style */
 .banner{
     width:80%;
-    border:1px solid red;
     margin:120px auto;
     display: flex;
     align-items:flex-end;
@@ -64,7 +63,7 @@ img{
 
 .banner_heading{
     font-weight:700;
-    font-size:65px;
+    font-size:45px;
     color:#E95A08;
 }
 .banner_heading span{
@@ -73,11 +72,10 @@ img{
 
 .banner_text{
     font-weight:400;
-    font-size:22px;
+    font-size:16px;
     color:rgba(0, 0, 0, 0.5);
 }
 
 .banner_img{
     width:50%;
-    border:1px solid green;
 }
