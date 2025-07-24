@@ -314,6 +314,10 @@ img{
     justify-content: center;
     align-items: center;
 }
+.join_content{
+    border:2px solid red;
+
+}
 .join_content input{
     padding:10px 20px;
     width: 640px;
@@ -341,11 +345,13 @@ img{
 /* footer styles */
 .footer_section{
     display: flex;
-    /* gap: 110px; */
     justify-content: space-between;
-    margin: 50px 160px
+    margin: 50px 160px;
 }
 
+.footer_content{
+    width: 300px;
+}
 .footer_content img{
 width:135px;
 height:82px;
