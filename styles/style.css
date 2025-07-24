@@ -113,8 +113,6 @@ img{
     margin-bottom:210px;
 }
 
-.card{
-}
 
 .card_img{
     margin-bottom:12px;
@@ -329,4 +327,46 @@ img{
 
 
 /* footer styles */
+.footer_section{
+    display: flex;
+    /* gap: 110px; */
+    justify-content: space-between;
+    margin: 50px 160px;
+    margin: 50px 160px;
+}
+
+/* .footer_content{
+} */
+.footer_content img{
+width:135px;
+height:82px;
+}
+.footer_content p{
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.list{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    color:#6B7280;
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+
+
+
+
+.footer_img{
+    height: 36px;
+    /* width:36px; */
+    display: flex;
+    gap: 24px;
+}
+
+
+
 
