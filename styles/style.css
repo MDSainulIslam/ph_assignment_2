@@ -28,24 +28,37 @@ img{
 /* header styles */
 .nav_bar{
     width:80%;
-    margin:0 auto;
+    margin:30px auto 0;
     display:flex;
     justify-content: space-between;
     align-items:center;
 }
 .nav_items{
     display: flex;
+    gap:48px;
 }
 .nav_items ul{
     display: flex;
+    gap:48px;
+    
 }
 .nav_items ul li {
     list-style:none;
 }
 .nav_items ul li a{
     text-decoration:none;
+    font-weight:400;
+    font-size:16px;
+    color:rgba(137, 135, 161, 1);
 }
-
+.nav_items .home_li{
+ color: #252432;
+ font-weight: 700;
+}
+.shopping_icon span{
+    font-weight: 400;
+    font-size:16px;
+}
 
 /* banner section style */
 .banner{
@@ -257,7 +270,7 @@ img{
     justify-content: center;
     align-items:center;
     border-radius: 14px;
-      filter: brightness(60%);
+    filter: brightness(60%);
 }
 
 .offer_section .ana{
@@ -270,8 +283,7 @@ img{
     justify-content: center;
     align-items:center;
     border-radius: 14px;
-    /* filter: contrast(80%); */
-      filter: brightness(60%);
+    filter: brightness(60%);
 
 }
 .offer_section .zabo{
@@ -331,12 +343,9 @@ img{
     display: flex;
     /* gap: 110px; */
     justify-content: space-between;
-    margin: 50px 160px;
-    margin: 50px 160px;
+    margin: 50px 160px
 }
 
-/* .footer_content{
-} */
 .footer_content img{
 width:135px;
 height:82px;
@@ -366,7 +375,10 @@ height:82px;
     display: flex;
     gap: 24px;
 }
-
+.footer_img img{
+    height:36px;
+    width: 36px;
+}
 
 
 
