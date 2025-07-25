@@ -2,6 +2,12 @@
 /* responsive styel for mobile device */
 @media screen and (max-width:576px){
 
+.nav_bar{
+    width: 92%;
+    margin:20px auto 0;
+}
+
+
 .nav_items ul{
     display:none;  
 }
