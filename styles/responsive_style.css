@@ -65,13 +65,8 @@
 .flower_store{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between;
-    align-items: center; */
 }
 
-/* .flower_store_img{
-    position: relative;
-} */
 
 .challenge_section{
     width:92%;

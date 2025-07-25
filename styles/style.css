@@ -270,8 +270,6 @@ img{
     justify-content: center;
     align-items:center;
     border-radius: 14px;
-    /* filter: brightness(60%); */
-    /* background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)); */
 }
 
 .offer_section .ana{
@@ -284,8 +282,6 @@ img{
     justify-content: center;
     align-items:center;
     border-radius: 14px;
-    /* filter: brightness(60%); */
-
 }
 .offer_section .zabo{
     background-image: linear-gradient(rgba(0,0,0,0.4)),url(../assets/deal-zabo.png);
@@ -314,9 +310,7 @@ img{
     justify-content: center;
     align-items: center;
 }
-/* .join_content{
 
-} */
 .join_content input{
     padding:10px 20px;
     width: 640px;
@@ -369,14 +363,15 @@ height:82px;
     flex-direction: column;
     gap:32px;
 }
-
+.input_field{
+    display: flex;
+}
 
 
 
 
 .footer_img{
     height: 36px;
-    /* width:36px; */
     display: flex;
     gap: 24px;
 }
